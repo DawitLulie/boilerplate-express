@@ -8,16 +8,28 @@ It started as the boilerplate from [freeCodeCamp](https://www.freecodecamp.org/l
 ##  Project Structure
 - `myApp.js` → Main application file  
 - `package.json` → Project dependencies and scripts  
-- `public/` → Static assets (if any)  
-- `views/` → HTML files (if any)
+- `public/` → Static assets (CSS, images, JS files)  
+- `views/` → HTML or template files  
+- `.env` → Environment variables (if needed)
 
 ---
 
 ##  Features
-- Basic Express server setup  
-- Middleware usage  
-- Routes with JSON responses  
-- Example endpoint returning the current server time  
+- Basic **Express server setup**  
+- **Middleware** for logging and serving static files  
+- **Routing** with GET and POST requests  
+- **Dynamic JSON responses**  
+- **Environment variable configuration** using `dotenv`  
+- Example endpoint returning the **current server time**  
+- Organized and modular **project structure**
+
+---
+
+##  Technologies Used
+- **Node.js**  
+- **Express.js**  
+- **Nodemon** (for development auto-restart)  
+- **dotenv** (for environment configuration)
 
 ---
 
